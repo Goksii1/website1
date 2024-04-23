@@ -1,0 +1,239 @@
+* {
+    /* фиксирует ширину элементов */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1408px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 146px;
+    padding-right: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 3px 7px #5B6460;
+}
+
+.header-list {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-right: 26px;
+}
+
+.header-flag {
+    /* сделать картинку блоком */
+    display: block;
+}
+
+.nav-plus-img {
+    display: flex;
+}
+
+.header-link {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    text-transform: uppercase;
+    color: #000000;
+    /* убрать подчеркивание у ссылки */
+    text-decoration: none;
+}
+
+.header-btn {
+    padding: 16px 60px;
+    background-color: #5B6460;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+/* intro */
+
+.intro-container {
+    max-width: 1408px;
+    height: 700px;
+    background-image: url(./image/Intro.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    padding-top: 95px;
+    padding-right: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.intro-title {
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-bottom: 34px;
+}
+
+.intro-descr {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    text-align: center;
+    color: #FFFFFF;
+    width: 333px;
+}
+.cabinc-block{
+    display: flex;
+    margin-top: 150px;
+}
+.text1{
+    padding: 87px 105px 157px 146px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+.teeee{
+    width: 465px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.cabinc-title{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5B6460;
+}
+.cabinc-btn{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5B6460;
+}
+.container-img{
+    max-width: 1408px;
+    margin: 0 auto;
+    display: flex;
+   
+}
+.card1{
+    padding-left: 32px;
+    padding-right: 30px;
+}
+.card3{
+    padding-left: 30px;
+    padding-right: 31px;
+}
+.cabins{
+    max-width: 1408px;
+    margin: 0 auto;
+    box-shadow: 1px 3px 7px #5B6460;
+}
+/* forest */
+
+.container-forest {
+    max-width: 1408px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 135px;
+}
+
+.forest-block {
+    width: 50%;
+}
+
+.forest-text {
+    padding: 150px 130px 150px 110px;
+    background-color: #E9ECE0;
+}
+
+.forest-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+    /* forest */
+    color: #5B6460;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.forest-descr {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    /* Gray 1 */
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.forest-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    /* forest */
+    color: #5B6460;
+}
+.facilities{
+    background-color:#5B6460;
+    margin: 0 auto;
+    width: 1408px;
+    height: 474px;
+}
+.block-facilities{
+    display: flex;
+    justify-content: center;
+}
+.Facilities-title{
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 85px;
+    padding-bottom: 110px;
+}
+.facilities-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+.facilities-img{
+    padding: 0 70px 20px 60px ;
+}
+.card-fac{
+    width: 704px;
+    height: 559px;
+}
+.facilities-card-block{
+    display: flex;
+}
